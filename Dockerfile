@@ -1,6 +1,6 @@
 From tomcat:8
 
-ADD /target/webapp.war /usr/local/tomcat/webapps/
+ADD /home/ec2-user/.jenkins/workspace/test1/webapp/target/webapp.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
