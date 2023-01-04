@@ -1,4 +1,4 @@
-From tomcat:8
+FROM tomcat:8
 
 ADD /home/ec2-user/.jenkins/workspace/test1/webapp/target/webapp.war /usr/local/tomcat/webapps/
 
